@@ -17,7 +17,7 @@ def get_filtered_data(data, filtered_empty_from):
 
 
 def get_last_values(data, count_values):
-    data = sorted(data, key=lambda x: x['date'], reverse=True)
+    data = sorted(data, key=lambda x: x["date"], reverse=True)
     return data[:count_values]
 
 
